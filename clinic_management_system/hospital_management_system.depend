@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1607299851 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\main.cpp
+	"WelcomeScreen.h"
+
+1607295922 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\mainmenu.cpp
+	"MainMenu.h"
+	"UiHelper.h"
+	<iomanip>
+	<iostream>
+	<string>
+
+1607295847 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\mainmenu.h
+	<string>
+
+1607289647 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\include\mainmenu.h
+
+1607295474 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\uihelper.cpp
+	"UiHelper.h"
+	<iomanip>
+	<algorithm>
+	<iostream>
+	<string>
+
+1607295319 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\uihelper.h
+	<string>
+
+1607295847 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\welcomscreen.h
+
+1607296070 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\changepasswordscreen.cpp
+	"ChangePasswordScreen.h"
+	"UiHelper.h"
+	<iomanip>
+	<iostream>
+	<string>
+
+1607296001 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\changepasswordscreen.h
+
+1607296825 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\welcomscreen.cpp
+	"WelcomScreen.h"
+	"ChangePasswordScreen.h"
+	"UiHelper.h"
+	"MainMenuScreen.h"
+	<iostream>
+	<string>
+
+1607299127 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\mainmenuscreen.h
+
+1607299130 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\mainmenuscreen.cpp
+	"MainMenuScreen.h"
+	"UiHelper.h"
+	"PatientsTableScreen.h"
+	"DoctorsTableScreen.h"
+	"PharmacyTableScreen.h"
+	<iostream>
+	<string>
+
+1607297241 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\patientstablescreen.h
+
+1607297018 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\doctorstablescreen.h
+
+1607296979 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\pharmacytablescreen.h
+
+1607295701 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\include\welcomescreen.h
+
+1607300060 d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\welcomescreen.h
+
+1607300852 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\welcomescreen.cpp
+	"WelcomeScreen.h"
+	"UiHelper.h"
+	"ChangePasswordScreen.h"
+	"MainMenuScreen.h"
+	<iostream>
+	<string>
+
+1607297570 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\doctorstablescreen.cpp
+	"DoctorsTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607297566 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\patientstablescreen.cpp
+	"PatientsTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607297555 source:d:\education\medipol\2.1\programming for engineers\programs\hospital_management_system\pharmacytablescreen.cpp
+	"PharmacyTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
