@@ -36,12 +36,24 @@
 		</Compiler>
 		<Unit filename="ChangePasswordScreen.cpp" />
 		<Unit filename="ChangePasswordScreen.h" />
+		<Unit filename="DoctorsMainScreen.cpp" />
+		<Unit filename="DoctorsMainScreen.h" />
 		<Unit filename="DoctorsTableScreen.cpp" />
 		<Unit filename="DoctorsTableScreen.h" />
 		<Unit filename="MainMenuScreen.cpp" />
 		<Unit filename="MainMenuScreen.h" />
+		<Unit filename="NewDoctorScreen.cpp" />
+		<Unit filename="NewDoctorScreen.h" />
+		<Unit filename="NewMedicineScreen.cpp" />
+		<Unit filename="NewMedicineScreen.h" />
+		<Unit filename="NewPatientScreen.cpp" />
+		<Unit filename="NewPatientScreen.h" />
+		<Unit filename="PatientsMainScreen.cpp" />
+		<Unit filename="PatientsMainScreen.h" />
 		<Unit filename="PatientsTableScreen.cpp" />
 		<Unit filename="PatientsTableScreen.h" />
+		<Unit filename="PharmacyMainScreen.cpp" />
+		<Unit filename="PharmacyMainScreen.h" />
 		<Unit filename="PharmacyTableScreen.cpp" />
 		<Unit filename="PharmacyTableScreen.h" />
 		<Unit filename="UiHelper.cpp" />

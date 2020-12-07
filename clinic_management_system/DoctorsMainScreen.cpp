@@ -1,24 +1,22 @@
-#include "MainMenuScreen.h"
-#include "UiHelper.h"
-#include "PatientsMainScreen.h"
 #include "DoctorsMainScreen.h"
-#include "PharmacyMainScreen.h"
+#include "DoctorsTableScreen.h"
+#include "NewDoctorScreen.h"
+#include "UiHelper.h"
 #include <iostream>
 #include <string>
-using namespace std;
 
-MainMenuScreen::MainMenuScreen()
+
+DoctorsMainScreen::DoctorsMainScreen()
 {
     int choice = -1;
     string feedback = "";
     while(choice != 0)
     {
         system("cls");
-        UiHelper::printTitle("MAIN MENU");
+        UiHelper::printTitle("DOCTORS MAIN MENU");
         UiHelper::printHorizontalLine();
-        UiHelper::printChoice("1.Doctors Database");
-        UiHelper::printChoice("2.Patients Database");
-        UiHelper::printChoice("3.Pharmacy Database");
+        UiHelper::printChoice("1.Add New Doctor");
+        UiHelper::printChoice("2.Show Doctors Table");
         UiHelper::printChoice("0.Back");
         UiHelper::printHorizontalLine();
         UiHelper::printFeedback(feedback);
@@ -29,17 +27,12 @@ MainMenuScreen::MainMenuScreen()
         {
         case 1:
         {
-            DoctorsMainScreen();
+            NewDoctorScreen();
             break;
         }
         case 2:
         {
-            PatientsMainScreen();
-            break;
-        }
-        case 3:
-        {
-            PharmacyMainScreen();
+            DoctorsTableScreen();
             break;
         }
         case 0:
@@ -51,8 +44,8 @@ MainMenuScreen::MainMenuScreen()
         }
     }
 }
-MainMenuScreen::~MainMenuScreen()
+
+DoctorsMainScreen::~DoctorsMainScreen()
 {
-
+    //dtor
 }
-

@@ -24,11 +24,11 @@
 
 1607300060 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\welcomescreen.h
 
-1607299130 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\mainmenuscreen.cpp
+1607351364 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\mainmenuscreen.cpp
 	"MainMenuScreen.h"
 	"UiHelper.h"
-	"PatientsTableScreen.h"
-	"DoctorsTableScreen.h"
+	"PatientsMainScreen.h"
+	"DoctorsMainScreen.h"
 	"PharmacyTableScreen.h"
 	<iostream>
 	<string>
@@ -63,6 +63,43 @@
 	"UiHelper.h"
 	"ChangePasswordScreen.h"
 	"MainMenuScreen.h"
+	<iostream>
+	<string>
+
+1607349593 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\doctorsmainscreen.h
+
+1607349907 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newdoctorscreen.cpp
+	"NewDoctorScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607349907 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newdoctorscreen.h
+
+1607351254 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\doctorsmainscreen.cpp
+	"DoctorsMainScreen.h"
+	"DoctorsTableScreen.h"
+	"NewDoctorScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607351397 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\patientsmainscreen.h
+
+1607351362 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newpatientscreen.cpp
+	"NewPatientScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607351326 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newpatientscreen.h
+
+1607351417 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\patientsmainscreen.cpp
+	"PatientsMainScreen.h"
+	"PatientsMainScreen.h"
+	"NewPatientScreen.h"
+	"PatientsTableScreen.h"
+	"UiHelper.h"
 	<iostream>
 	<string>
 
