@@ -1,4 +1,5 @@
 #include "NewDoctorScreen.h"
+#include "DoctorEntity.h"
 #include "UiHelper.h"
 #include <iostream>
 #include <string>
@@ -10,8 +11,17 @@ NewDoctorScreen::NewDoctorScreen()
     UiHelper::printHorizontalLine();
     int choice = -1;
     string feedback = "";
-    cout<<"\nNot implemented yet, Enter any number to continue: ";
-    cin>>choice;
+    DoctorEntity d;
+    d.addDoc();
+    cout<<"\n\n\n\nEnter 1 to return to Doctor Database\nEnter 2 to Exit."<<endl;
+	cin>>choice;
+	if(choice==1){
+	  system("cls");
+	  //getDoctorDatabase();
+      //DoctorsMainScreen();
+	}else
+	  exit(0);
+
 }
 
 NewDoctorScreen::~NewDoctorScreen()
