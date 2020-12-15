@@ -1,6 +1,7 @@
 #include "DoctorEntity.h"
 #include <iostream>
 #include <fstream>
+#include <iomanip>
 
 DoctorEntity::DoctorEntity()
 {
@@ -78,6 +79,7 @@ void DoctorEntity::addDoc()
         cin>>d.d_age;
     }
 
+
     cout<<"Choose Qualification among the following:\n1.MBBS\n2.MD"<<endl;
     int q;
     cin>>q;
@@ -124,4 +126,41 @@ void DoctorEntity::addDoc()
 
  //backtoDoctorMenu
 
+}
+
+
+void DoctorEntity::dispDatabase(){
+	fstream fileObj("doctor.txt");
+	fileObj.seekg(0);
+	//cout<<right<<setw(70)<<setfill(' ')<<"DOCTOR DATABASE"<<endl<<endl;
+	//cout << "------------- Doctors Table ---------------" << endl;
+	int age,exp,count=0;
+	string ID,fname,lname,ci,qua,spe;
+
+	cout<<endl<<endl<<"-----------------------------------------------------------------------------------------------------------"<<endl;
+	cout <<"ID\t" <<"First Name\t" <<"LastName\t" <<"Age\t" <<"Qualification\t" <<"Specialization\t" <<"Experience\t" <<"City" <<endl;
+	cout<<"-----------------------------------------------------------------------------------------------------------"<<endl;
+
+	while(fileObj>>fname>>lname>>age>>qua>>spe>>exp>>ci)
+	{	count++;
+		//cout<<right<<setw(50)<<setfill(' ')<<"Doctor Profile:"<<count<<endl;
+		cout<<count <<"\t"<<fname<<"\t\t"<<lname<<"\t\t"<<age<<"\t"<<qua<<"\t\t"<<spe<<"\t   "<<exp<<"\t\t"<<ci<<endl;
+
+	}
+
+	if(count==0)
+	{cout<<"\nNo matching records found!"<<endl;
+ 	 exit(0);
+	}
+
+	cout<<"\n\nEnter 1 to return to Doctor Database\nEnter 2 to Exit."<<endl;
+	int c;
+	cin>>c;
+	if(c==1)
+	{
+	  system("cls");
+	  //getDoctorDatabase();
+	}
+	else
+	  exit(0);
 }
