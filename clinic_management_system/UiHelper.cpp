@@ -14,7 +14,7 @@ void UiHelper::printTitle(string title)
 
 void UiHelper::printHorizontalLine()
 {
-    cout<<"            "<<"------------------------------------------------"<<endl;
+    cout<<"            "<<"------------------------------------------------------------------"<<endl;
 }
 
 void UiHelper::printChoice(string choice)

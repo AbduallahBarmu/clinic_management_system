@@ -24,12 +24,12 @@
 
 1607300060 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\welcomescreen.h
 
-1607351364 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\mainmenuscreen.cpp
+1607351680 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\mainmenuscreen.cpp
 	"MainMenuScreen.h"
 	"UiHelper.h"
 	"PatientsMainScreen.h"
 	"DoctorsMainScreen.h"
-	"PharmacyTableScreen.h"
+	"PharmacyMainScreen.h"
 	<iostream>
 	<string>
 
@@ -68,13 +68,14 @@
 
 1607349593 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\doctorsmainscreen.h
 
-1607349907 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newdoctorscreen.cpp
+1607630894 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newdoctorscreen.cpp
 	"NewDoctorScreen.h"
+	"DoctorEntity.h"
 	"UiHelper.h"
 	<iostream>
 	<string>
 
-1607349907 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newdoctorscreen.h
+1607630894 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newdoctorscreen.h
 
 1607351254 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\doctorsmainscreen.cpp
 	"DoctorsMainScreen.h"
@@ -102,4 +103,179 @@
 	"UiHelper.h"
 	<iostream>
 	<string>
+
+1607351575 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\pharmacymainscreen.h
+
+1607351654 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\pharmacymainscreen.cpp
+	"PharmacyMainScreen.h"
+	"PharmacyTableScreen.h"
+	"NewMedicineScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607351519 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newmedicinescreen.h
+
+1607630894 d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\doctorentity.h
+	<string>
+
+1607351767 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\newmedicinescreen.cpp
+	"NewMedicineScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607630894 source:d:\education\medipol\2.1\programming for engineers\programs\programming_for_engineers_project\clinic_management_system\doctorentity.cpp
+	"DoctorEntity.h"
+	<iostream>
+	<fstream>
+
+1607296070 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\changepasswordscreen.cpp
+	"ChangePasswordScreen.h"
+	"UiHelper.h"
+	<iomanip>
+	<iostream>
+	<string>
+
+1607296001 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\changepasswordscreen.h
+
+1607295319 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\uihelper.h
+	<string>
+
+1607630894 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\doctorentity.cpp
+	"DoctorEntity.h"
+	<iostream>
+	<fstream>
+
+1607630894 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\doctorentity.h
+	<string>
+
+1607351254 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\doctorsmainscreen.cpp
+	"DoctorsMainScreen.h"
+	"DoctorsTableScreen.h"
+	"NewDoctorScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607349593 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\doctorsmainscreen.h
+
+1607297018 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\doctorstablescreen.h
+
+1607630894 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\newdoctorscreen.h
+
+1607297570 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\doctorstablescreen.cpp
+	"DoctorsTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1608051284 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\main.cpp
+	"Login.h"
+
+1607300060 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\welcomescreen.h
+
+1607351680 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\mainmenuscreen.cpp
+	"MainMenuScreen.h"
+	"UiHelper.h"
+	"PatientsMainScreen.h"
+	"DoctorsMainScreen.h"
+	"PharmacyMainScreen.h"
+	<iostream>
+	<string>
+
+1607299127 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\mainmenuscreen.h
+
+1607351397 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\patientsmainscreen.h
+
+1607351575 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\pharmacymainscreen.h
+
+1607630894 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\newdoctorscreen.cpp
+	"NewDoctorScreen.h"
+	"DoctorEntity.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607351767 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\newmedicinescreen.cpp
+	"NewMedicineScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607351519 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\newmedicinescreen.h
+
+1607351362 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\newpatientscreen.cpp
+	"NewPatientScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607351326 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\newpatientscreen.h
+
+1607351417 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\patientsmainscreen.cpp
+	"PatientsMainScreen.h"
+	"PatientsMainScreen.h"
+	"NewPatientScreen.h"
+	"PatientsTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607297241 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\patientstablescreen.h
+
+1607297566 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\patientstablescreen.cpp
+	"PatientsTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607351654 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\pharmacymainscreen.cpp
+	"PharmacyMainScreen.h"
+	"PharmacyTableScreen.h"
+	"NewMedicineScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607296979 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\pharmacytablescreen.h
+
+1607297555 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\pharmacytablescreen.cpp
+	"PharmacyTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1608052586 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\uihelper.cpp
+	"UiHelper.h"
+	<iomanip>
+	<algorithm>
+	<iostream>
+	<string>
+
+1607300852 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\welcomescreen.cpp
+	"WelcomeScreen.h"
+	"UiHelper.h"
+	"ChangePasswordScreen.h"
+	"MainMenuScreen.h"
+	<iostream>
+	<string>
+
+1608048892 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\login.h
+
+1608059752 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\login.cpp
+	"Login.h"
+	"WelcomeScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1608055244 source:d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\sha256.cpp
+	<stdlib.h>
+	<memory.h>
+	"sha256.h"
+
+1608055244 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\sha256.h
+	<stddef.h>
 

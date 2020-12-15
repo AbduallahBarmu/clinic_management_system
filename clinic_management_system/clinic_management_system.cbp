@@ -36,6 +36,8 @@
 		</Compiler>
 		<Unit filename="ChangePasswordScreen.cpp" />
 		<Unit filename="ChangePasswordScreen.h" />
+		<Unit filename="DoctorEntity.cpp" />
+		<Unit filename="DoctorEntity.h" />
 		<Unit filename="DoctorsMainScreen.cpp" />
 		<Unit filename="DoctorsMainScreen.h" />
 		<Unit filename="DoctorsTableScreen.cpp" />

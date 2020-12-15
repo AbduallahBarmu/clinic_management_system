@@ -1,9 +1,7 @@
-#include "WelcomeScreen.h"
-
-using namespace std;
+#include "Login.h"
 
 int main()
 {
-    WelcomeScreen();
+    Login();
     return 0;
 }
