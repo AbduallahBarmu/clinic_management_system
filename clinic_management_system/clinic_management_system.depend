@@ -279,3 +279,158 @@
 1608055244 d:\education\medipol\2.1\programming for engineers\project\programming_for_engineers_project\clinic_management_system\sha256.h
 	<stddef.h>
 
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\changepasswordscreen.cpp
+	"ChangePasswordScreen.h"
+	"UiHelper.h"
+	<iomanip>
+	<iostream>
+	<string>
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\changepasswordscreen.h
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\uihelper.h
+	<string>
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\doctorentity.cpp
+	"DoctorEntity.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\doctorentity.h
+	<string>
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\doctorsmainscreen.cpp
+	"DoctorsMainScreen.h"
+	"DoctorsTableScreen.h"
+	"NewDoctorScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\doctorsmainscreen.h
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\doctorstablescreen.h
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newdoctorscreen.h
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\doctorstablescreen.cpp
+	"DoctorsTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+	"DoctorEntity.h"
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\main.cpp
+	"Login.h"
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\login.h
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\mainmenuscreen.cpp
+	"MainMenuScreen.h"
+	"UiHelper.h"
+	"PatientsMainScreen.h"
+	"DoctorsMainScreen.h"
+	"PharmacyMainScreen.h"
+	<iostream>
+	<string>
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\mainmenuscreen.h
+
+1607361767 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientsmainscreen.h
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\pharmacymainscreen.h
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newdoctorscreen.cpp
+	"NewDoctorScreen.h"
+	"DoctorEntity.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newmedicinescreen.cpp
+	"NewMedicineScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newmedicinescreen.h
+
+1608066444 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newpatientscreen.cpp
+	"NewPatientScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+	"PatientEntity.h"
+
+1608063300 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newpatientscreen.h
+
+1608065119 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.h
+	<string>
+
+1607361767 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientsmainscreen.cpp
+	"PatientsMainScreen.h"
+	"PatientsMainScreen.h"
+	"NewPatientScreen.h"
+	"PatientsTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1607361767 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.h
+
+1608066435 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.cpp
+	"PatientsTableScreen.h"
+	"PatientEntity.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\pharmacymainscreen.cpp
+	"PharmacyMainScreen.h"
+	"PharmacyTableScreen.h"
+	"NewMedicineScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\pharmacytablescreen.h
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\pharmacytablescreen.cpp
+	"PharmacyTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\uihelper.cpp
+	"UiHelper.h"
+	<iomanip>
+	<algorithm>
+	<iostream>
+	<string>
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\welcomescreen.cpp
+	"WelcomeScreen.h"
+	"UiHelper.h"
+	"ChangePasswordScreen.h"
+	"MainMenuScreen.h"
+	<iostream>
+	<string>
+
+1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\welcomescreen.h
+
+1608155829 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\login.cpp
+	"Login.h"
+	"WelcomeScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1608158842 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
+	"PatientEntity.h"
+	<string>
+	<iostream>
+	<fstream>
+	<iomanip>
+

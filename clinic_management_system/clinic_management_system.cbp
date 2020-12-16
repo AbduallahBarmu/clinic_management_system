@@ -42,6 +42,8 @@
 		<Unit filename="DoctorsMainScreen.h" />
 		<Unit filename="DoctorsTableScreen.cpp" />
 		<Unit filename="DoctorsTableScreen.h" />
+		<Unit filename="Login.cpp" />
+		<Unit filename="Login.h" />
 		<Unit filename="MainMenuScreen.cpp" />
 		<Unit filename="MainMenuScreen.h" />
 		<Unit filename="NewDoctorScreen.cpp" />
@@ -50,6 +52,8 @@
 		<Unit filename="NewMedicineScreen.h" />
 		<Unit filename="NewPatientScreen.cpp" />
 		<Unit filename="NewPatientScreen.h" />
+		<Unit filename="PatientEntity.cpp" />
+		<Unit filename="PatientEntity.h" />
 		<Unit filename="PatientsMainScreen.cpp" />
 		<Unit filename="PatientsMainScreen.h" />
 		<Unit filename="PatientsTableScreen.cpp" />
@@ -62,7 +66,15 @@
 		<Unit filename="UiHelper.h" />
 		<Unit filename="WelcomeScreen.cpp" />
 		<Unit filename="WelcomeScreen.h" />
+		<Unit filename="clinic_management_system.cbp" />
+		<Unit filename="clinic_management_system.depend" />
+		<Unit filename="clinic_management_system.layout" />
+		<Unit filename="doctor.txt" />
+		<Unit filename="hospital_management_system.depend" />
+		<Unit filename="hospital_management_system.layout" />
 		<Unit filename="main.cpp" />
+		<Unit filename="medipolclinicsys.txt" />
+		<Unit filename="patient.txt" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

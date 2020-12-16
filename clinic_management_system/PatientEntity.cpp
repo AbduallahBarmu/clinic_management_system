@@ -2,6 +2,7 @@
 #include <string>
 #include  <iostream>
 #include <fstream>
+#include <iomanip>
 
 PatientEntity::PatientEntity()
 {
@@ -124,13 +125,13 @@ void PatientEntity::dispPatDatabase(){
     string P_Phone;
 
 	cout<<endl<<endl<<"-------------------------------------------------------------------------------------------------------------------------------------------------------------"<<endl;
-	cout <<"ID\t" <<"First Name\t" <<"LastName\t" <<"Age\t" <<"Phone No\t" <<"career\t" <<"City\t" <<"Disease/Symptoms"<< "Admission date"<<"Last Check "<<"Total Bill " <<"Specialization" <<endl;
+	cout<<"ID"<<setw(12) <<"Name"<< setw(12)<<"Age"<<setw(15) <<"Phone-No"<<setw(15) <<"career"<< setw(12)<<"City"<<setw(12)<<setw(15) <<"Disease"<<setw(22)<< "Admission-date"<<setw(20)<<"Last-Check "<< setw(20)<<"Total-Bill "<<setw(20) <<"Specialization" <<endl;
 	cout<<"-------------------------------------------------------------------------------------------------------------------------------------------------------------------------"<<endl;
 
 	while(Obj>>fname>>lname>>p_age>>P_Phone>>career>>p_city>>Disease>>addDate>>Last_Check>>bill>>dept)
 	{   count++;
 
-		cout<< count <<"\t"<<fname<<"\t\t"<<lname<<"\t\t"<<p_age<<"\t\t"<<P_Phone<<"\t\t"<<career<<"\t\t"<<p_city<<"\t\t"<<Disease<<"\t\t"<<addDate<<"\t\t"<<Last_Check<<"\t"<<bill<<"\t\t"<<dept <<endl ;
+		cout<< count <<setw(10)<<fname<<" "<<lname<<setw(7)<<p_age<<setw(16)<<P_Phone<<setw(17)<<career<<setw(15)<<p_city<<setw(12)<<Disease<<setw(21)<<addDate<<setw(20)<<Last_Check<<setw(15)<<bill<<setw(25)<<dept <<endl ;
 	}
 
 
