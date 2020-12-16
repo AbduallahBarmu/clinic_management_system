@@ -2,6 +2,9 @@
 #include "UiHelper.h"
 #include <iostream>
 #include <string>
+#include "PatientEntity.h"
+
+// table 3
 
 NewPatientScreen::NewPatientScreen()
 {
@@ -10,9 +13,15 @@ NewPatientScreen::NewPatientScreen()
     UiHelper::printHorizontalLine();
     int choice = -1;
     string feedback = "";
-    cout<<"\nNot implemented yet, Enter any number to continue: ";
-    cin>>choice;
+
+    PatientEntity p;
+    p.addPat();
+
+
+
+
 }
+
 
 NewPatientScreen::~NewPatientScreen()
 {
