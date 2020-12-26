@@ -75,6 +75,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="medipolclinicsys.txt" />
 		<Unit filename="patient.txt" />
+		<Unit filename="patientProfile.cpp" />
+		<Unit filename="patientProfile.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

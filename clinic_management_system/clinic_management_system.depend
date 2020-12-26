@@ -365,22 +365,24 @@
 
 1608063300 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newpatientscreen.h
 
-1608065119 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.h
+1608999991 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.h
 	<string>
 
-1607361767 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientsmainscreen.cpp
+1608923819 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientsmainscreen.cpp
 	"PatientsMainScreen.h"
 	"PatientsMainScreen.h"
 	"NewPatientScreen.h"
 	"PatientsTableScreen.h"
+	"patientProfile.h"
 	"UiHelper.h"
 	<iostream>
 	<string>
 
 1607361767 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.h
 
-1608066435 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.cpp
+1609000669 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.cpp
 	"PatientsTableScreen.h"
+	"patientProfile.h"
 	"PatientEntity.h"
 	"UiHelper.h"
 	<iostream>
@@ -427,10 +429,20 @@
 	<string>
 	<fstream>
 
-1608158842 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
+1608926129 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
 	"PatientEntity.h"
 	<string>
 	<iostream>
 	<fstream>
 	<iomanip>
+
+1609000182 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientprofile.cpp
+	"patientProfile.h"
+	"PatientsTableScreen.h"
+	"PatientEntity.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1608922520 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientprofile.h
 

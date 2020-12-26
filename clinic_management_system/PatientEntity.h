@@ -19,13 +19,12 @@ class PatientEntity
         void getDoctor();
         void addPat();
         //void editPat(patient &pat);
-        //void dispPat();
         void deletePat();
         void displayPat() ;
 
         void dispPatDatabase();
         void numberofPats();
-        void getPatientDatabase();
+        //void getPatientDatabase();
 
 
     protected:

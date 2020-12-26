@@ -2,6 +2,7 @@
 #include "PatientsMainScreen.h"
 #include "NewPatientScreen.h"
 #include "PatientsTableScreen.h"
+#include "patientProfile.h"
 #include "UiHelper.h"
 #include <iostream>
 #include <string>

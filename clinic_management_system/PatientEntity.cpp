@@ -1,6 +1,7 @@
 #include "PatientEntity.h"
+#include "patientProfile.h"
 #include <string>
-#include  <iostream>
+#include <iostream>
 #include <fstream>
 #include <iomanip>
 
@@ -111,14 +112,13 @@ void PatientEntity::addPat(){
 }
 
 
-
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void PatientEntity::dispPatDatabase(){
 	fstream Obj("patient.txt");
 	Obj.seekg(0);
 
-	cout << "-------------------------------- patient Table -----------------------" << endl;
+	//cout << "-------------------------------- patient Table -----------------------" << endl;
 	string fname,lname,career,p_city,Disease,addDate,Last_Check,dept;
 	int p_age,count=0;
 	long double bill;
@@ -141,21 +141,89 @@ void PatientEntity::dispPatDatabase(){
 		exit(0);
 	}
 
-cout<<"\n\nEnter 1 to return to Patient Database\nEnter 2 to Exit."<<endl;
+cout<<"\n\nEnter 1 to back into Patient Database\nEnter 2 to Exit.\nEnter Patient ID to make more operation"<<endl;
+	int c;
+	cin>>c;
+    while(c != 0)
+    {
+         switch(c)
+         {
+         case 1:
+         {
+              system("cls");
+
+             break;
+         }
+         case 0:
+         {
+             exit(0);
+             break;
+         }
+         case 2:
+         {
+             if(c == count ){
+                patientProfile();
+             }else
+                cout<< "please Enter the ID again !!"<< endl;
+            break ;
+         }
+
+         default:
+            // feedback = "Please, Enter a valid option.";
+         }
+     }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+///the display patient profile
+void PatientEntity::displayPat(){
+	int p;
+	//cout<<"\nEnter the ID of the Patient whose profile you want to Display:"<<endl;
+	cin>>p;
+	fstream patOb("patient.txt");
+	patOb.seekg(0);
+
+	string fname,lname,career,p_city,Disease,addDate,Last_Check,dept;
+	int p_age,count=0;
+	long double bill;
+    string P_Phone;
+
+	while(patOb>>fname>>lname>>p_age>>P_Phone>>career>>p_city>>Disease>>addDate>>Last_Check>>bill>>dept)
+        {
+            if(count== p){
+            cout<<"1.ID:"<<count <<endl<<"2.First Name:"<<fname<<endl<<"3.Last Name:"<<lname<<endl<<"4.Age"<<p_age<<endl<<"5.Phone No.:"<<P_Phone<<endl<<"6.career:"<<career<<endl<<"7.City:"<<p_city<<endl<<"8.Disease/Symptoms:"<<Disease<<endl<<"9.Admission  date(DD/MM/YYYY):"<<addDate<<endl<<"10.Last Check date(DD/MM/YYYY):"<<Last_Check<<endl<<"11.Total Bill generated:"<<bill<<endl<<"12.Kind of Specialization required:"<<dept<<endl;
+            count++;
+            break;
+            }
+        }
+
+	patOb.close();
+	if(count==0){
+		cout<<"\nNo matching records found!"<<endl;
+		exit(0);
+	}
+
+//cout<<"\n\n Enter 1 to Edit Patient Profile \nEnter 2 to Delete Patient Profile \nEnter 1 to back into Patient dataBase \nEnter 4 exit from program  "<<endl;
 	int c;
 	cin>>c;
 	if(c==1){
 	  system("cls");
 	  //getPatientDatabase();
-	}else{
+	}
+
+	else
 	  exit(0);
 }
-
-}
-
-
-
-
 
 
 /*
@@ -176,8 +244,8 @@ void PatientEntity::deletePat()
 
         while(patObj>>fname>>lname>>p_age>>P_Phone>>career>>p_city>>Disease>>addDate>>Last_Check>>bill>>dept)
         {
-            if(p_ID==x){
-            cout<<"1.ID:"<<p_ID<<endl<<"2.First Name:"<<fname<<endl<<"3.Last Name:"<<lname<<endl<<"4.Age"<<p_age<<endl<<"5.Phone No.:"<<P_Phone<<endl<<"6.career:"<<career<<endl<<"7.City:"<<p_city<<endl<<"8.Disease/Symptoms:"<<Disease<<endl<<"9.Admission  date(DD/MM/YYYY):"<<addDate<<endl<<"10.Last Check date(DD/MM/YYYY):"<<Last_Check<<endl<<"11.Total Bill generated:"<<bill<<endl<<"12.Kind of Specialization required:"<<dept<<endl;
+            if(count==x){
+            cout<<"1.ID:"<<count <<endl<<"2.First Name:"<<fname<<endl<<"3.Last Name:"<<lname<<endl<<"4.Age"<<p_age<<endl<<"5.Phone No.:"<<P_Phone<<endl<<"6.career:"<<career<<endl<<"7.City:"<<p_city<<endl<<"8.Disease/Symptoms:"<<Disease<<endl<<"9.Admission  date(DD/MM/YYYY):"<<addDate<<endl<<"10.Last Check date(DD/MM/YYYY):"<<Last_Check<<endl<<"11.Total Bill generated:"<<bill<<endl<<"12.Kind of Specialization required:"<<dept<<endl;
             count++;
             break;
             }
