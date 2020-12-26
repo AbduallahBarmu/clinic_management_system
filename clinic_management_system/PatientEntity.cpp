@@ -168,8 +168,7 @@ cout<<"\n\nEnter 1 to back into Patient Database\nEnter 2 to Exit.\nEnter Patien
             break ;
          }
 
-         default:
-            // feedback = "Please, Enter a valid option.";
+
          }
      }
 
