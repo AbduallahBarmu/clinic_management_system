@@ -52,6 +52,8 @@
 		<Unit filename="NewMedicineScreen.h" />
 		<Unit filename="NewPatientScreen.cpp" />
 		<Unit filename="NewPatientScreen.h" />
+		<Unit filename="PasswordFileHelper.cpp" />
+		<Unit filename="PasswordFileHelper.h" />
 		<Unit filename="PatientEntity.cpp" />
 		<Unit filename="PatientEntity.h" />
 		<Unit filename="PatientsMainScreen.cpp" />
