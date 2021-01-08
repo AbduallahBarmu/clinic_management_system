@@ -14,13 +14,8 @@ PatientsTableScreen::PatientsTableScreen()
     int choice = -1;
     string feedback = "";
 
-
     PatientEntity show_DB;
     show_DB.dispPatDatabase();
-
-
-
-
 }
 
 

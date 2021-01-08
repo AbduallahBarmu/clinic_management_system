@@ -369,7 +369,7 @@
 
 1608063300 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newpatientscreen.h
 
-1608999991 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.h
+1610140847 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.h
 	<string>
 
 1608923819 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientsmainscreen.cpp
@@ -384,7 +384,7 @@
 
 1607361767 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.h
 
-1609000669 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.cpp
+1610136337 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.cpp
 	"PatientsTableScreen.h"
 	"patientProfile.h"
 	"PatientEntity.h"
@@ -433,13 +433,14 @@
 	<iostream>
 	<string>
 
-1609000982 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
+1610141028 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
 	"PatientEntity.h"
 	"patientProfile.h"
 	<string>
 	<iostream>
 	<fstream>
 	<iomanip>
+	"UiHelper.h"
 
 1608473899 D
 

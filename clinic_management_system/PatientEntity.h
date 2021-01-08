@@ -9,21 +9,19 @@ class PatientEntity
         PatientEntity ();
         virtual ~PatientEntity ();
 
+        string fname,lname,job,p_city,Disease,addDate,Last_Check ,P_Phone;
+        int p_age ,p_ID ;
 
-        string fname,lname,career,p_city,Disease,addDate,Last_Check;
-        int p_age ;
-        string P_Phone;
-        long double bill ;
 
         string getDept();
         void getDoctor();
         void addPat();
-        //void editPat(patient &pat);
-        void deletePat();
+        int editPat(PatientEntity &pat);
+        int deletePat();
         void displayPat() ;
 
         void dispPatDatabase();
-        void numberofPats();
+        //void numberofPats();
         //void getPatientDatabase();
 
 
