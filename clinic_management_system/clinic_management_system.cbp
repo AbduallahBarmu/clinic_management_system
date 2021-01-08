@@ -75,7 +75,6 @@
 		<Unit filename="hospital_management_system.depend" />
 		<Unit filename="hospital_management_system.layout" />
 		<Unit filename="main.cpp" />
-		<Unit filename="medipolclinicsys.txt" />
 		<Unit filename="patient.txt" />
 		<Unit filename="patientProfile.cpp" />
 		<Unit filename="patientProfile.h" />
