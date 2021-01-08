@@ -1,24 +1,3 @@
-12536
-kuro
-tetsuro
-33
-MD
-NEUROLOGY
-7
-beru
-79645
-osamu
-miya
-26
-MBBS
-HAEMATOLOGY
-2
-spain
-25874
-oikawa
-tooru
-29
-MBBS
-GYNAECOLOGY
-5
-japan
+12536789 kuro tetsuro 33 MD NEUROLOGY 7 beru
+79645144 osamu miya 26 MBBS HAEMATOLOGY 2 spain
+25874147 oikawa tooru 29 MBBS GYNAECOLOGY 5 japan

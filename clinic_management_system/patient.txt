@@ -1,5 +1,4 @@
-khalid gamal 30 123546 doctor germany headache 15/12/2020 1/12/2020 500 GASTROENTEROLOGY
-samer jamal 23 534876345 engineer istanbul sick 12/2/2020 30/8/1019 44 NEUROLOGY
-hilal gokah 34 7643234578 teacher izmer sick 12/6/1019 2/2/2020 45 NEUROLOGY
-hamza samy 24 453738383 dancer istanbul sick 12/17/2020 9/9/2019 50 ONCOLOGY
-koraj maron 32 5439543456 developer German head problems 12/12/1996 50 GENERAL_MEDICINE
+99221199 hamza samy 24 54322334 student Istanbul Head 1/6/2020 1/9/2020 GENERAL_MEDICINE
+99446655 abdu barmu 24 54322334 student Istanbul Head 1/6/2020 1/9/2020 GENERAL_MEDICINE
+99223344 harun tomes 24 54322334 student Istanbul Head 1/6/2020 1/9/2020 GENERAL_MEDICINE
+99223311 salman amir 44 33344112 adminstrater Sudi head 1/2/2020 4/5/2020 GENERAL_MEDICINE

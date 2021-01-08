@@ -71,10 +71,10 @@ void DoctorEntity::addDoc()
     DoctorEntity d;
 
     cout<<"Fill up the following details"<<endl;
-    cout << "Doctor ID consists of 5 numbers"<<endl;
+    cout << "Doctor ID consists of 8 numbers"<<endl;
     cin>>d.d_ID;
-    while (!(d.d_ID > 4999) && !(d.d_ID < 100000)) {
-        cout <<endl<< "Enter ID consists of 5 digit";
+    while (!(d.d_ID > 4999999) && !(d.d_ID < 100000000)) {
+        cout <<endl<< "Enter ID consists of 8 digit";
         cin>>d.d_ID;
     }
     cout<<"First Name:"<<endl;
