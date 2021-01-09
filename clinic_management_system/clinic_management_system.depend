@@ -827,3 +827,176 @@
 	<iostream>
 	<string>
 
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\changepasswordscreen.cpp
+	"ChangePasswordScreen.h"
+	"WelcomeScreen.h"
+	"Login.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+	<fstream>
+	"passwordFileHelper.h"
+	<conio.h>
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\changepasswordscreen.h
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\welcomescreen.h
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\login.h
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\uihelper.h
+	<string>
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\passwordfilehelper.h
+	<string>
+
+1610200995 source:d:\asmaa\clinic_management_system\clinic_management_system\doctorentity.cpp
+	"DoctorEntity.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<cstdio>
+	"UiHelper.h"
+
+1610196671 d:\asmaa\clinic_management_system\clinic_management_system\doctorentity.h
+	<string>
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\doctorsmainscreen.cpp
+	"DoctorsMainScreen.h"
+	"DoctorsTableScreen.h"
+	"NewDoctorScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\doctorsmainscreen.h
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\doctorstablescreen.h
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\newdoctorscreen.h
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\doctorstablescreen.cpp
+	"DoctorsTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+	"DoctorEntity.h"
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\login.cpp
+	"Login.h"
+	"WelcomeScreen.h"
+	"UiHelper.h"
+	"passwordFileHelper.h"
+	<iostream>
+	<string>
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\main.cpp
+	"Login.h"
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\mainmenuscreen.cpp
+	"MainMenuScreen.h"
+	"UiHelper.h"
+	"PatientsMainScreen.h"
+	"DoctorsMainScreen.h"
+	"PharmacyMainScreen.h"
+	<iostream>
+	<string>
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\mainmenuscreen.h
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\patientsmainscreen.h
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\pharmacymainscreen.h
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\newdoctorscreen.cpp
+	"NewDoctorScreen.h"
+	"DoctorEntity.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\newmedicinescreen.cpp
+	"NewMedicineScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\newmedicinescreen.h
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\newpatientscreen.cpp
+	"NewPatientScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+	"PatientEntity.h"
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\newpatientscreen.h
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\patiententity.h
+	<string>
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\passwordfilehelper.cpp
+	"PasswordFileHelper.h"
+	<iostream>
+	<string>
+	<fstream>
+	<conio.h>
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\patiententity.cpp
+	"PatientEntity.h"
+	<string>
+	<iostream>
+	<fstream>
+	<iomanip>
+	"UiHelper.h"
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\patientsmainscreen.cpp
+	"PatientsMainScreen.h"
+	"PatientsMainScreen.h"
+	"NewPatientScreen.h"
+	"PatientsTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\patientstablescreen.h
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\patientstablescreen.cpp
+	"PatientsTableScreen.h"
+	"PatientEntity.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\pharmacymainscreen.cpp
+	"PharmacyMainScreen.h"
+	"PharmacyTableScreen.h"
+	"NewMedicineScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1610192357 d:\asmaa\clinic_management_system\clinic_management_system\pharmacytablescreen.h
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\pharmacytablescreen.cpp
+	"PharmacyTableScreen.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\uihelper.cpp
+	"UiHelper.h"
+	<iomanip>
+	<algorithm>
+	<iostream>
+	<string>
+
+1610192357 source:d:\asmaa\clinic_management_system\clinic_management_system\welcomescreen.cpp
+	"WelcomeScreen.h"
+	"UiHelper.h"
+	"ChangePasswordScreen.h"
+	"MainMenuScreen.h"
+	<iostream>
+	<string>
+

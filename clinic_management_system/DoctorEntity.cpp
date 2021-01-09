@@ -73,8 +73,9 @@ void DoctorEntity::addDoc()
     cout<<"Fill up the following details"<<endl;
     cout << "Doctor ID consists of 8 numbers"<<endl;
     cin>>d.d_ID;
-    while (!(d.d_ID > 4999999) && !(d.d_ID < 100000000)) {
-        cout <<endl<< "Enter ID consists of 8 digit";
+    while (d.d_ID.length() != 8) {
+        //cout << d.d_ID.length();
+        cout <<endl<< "Enter ID consists of 8 digit ";
         cin>>d.d_ID;
     }
     cout<<"First Name:"<<endl;
@@ -160,15 +161,15 @@ void DoctorEntity::dispDatabase(){
 	int age,exp,count=0;
 	string ID,fname,lname,ci,qua,spe;
 
-	cout<<endl<<endl<<"-----------------------------------------------------------------------------------------------------------"<<endl;
-	cout <<"ID\t" <<"First Name\t" <<"LastName\t" <<"Age\t" <<"Qualification\t" <<"Specialization\t" <<"Experience\t" <<"City" <<endl;
-	cout<<"-----------------------------------------------------------------------------------------------------------"<<endl;
+	cout<<endl<<endl<<"---------------------------------------------------------------------------------------------------------------------"<<endl;
+	cout <<"  ID" <<setw(15)<<"Name"<<setw(15) <<"Age" <<setw(20)<<"Qualification"<<setw(20) <<"Specialization"<<setw(15) <<"Experience"<<setw(12) <<"City" <<endl;
+	cout<<"---------------------------------------------------------------------------------------------------------------------"<<endl;
 
 	while(fileObj>>ID>>fname>>lname>>age>>qua>>spe>>exp>>ci)
 	{	count++;
 
 		//cout<<right<<setw(50)<<setfill(' ')<<"Doctor Profile:"<<count<<endl;
-		cout<<ID <<"\t"<<fname<<"\t\t"<<lname<<"\t\t"<<age<<"\t"<<qua<<"\t\t"<<spe<<"\t   "<<exp<<"\t\t"<<ci<<endl;
+		cout<<ID <<setw(15)<<fname + " " +  lname<<setw(10)<<age<<setw(12)<<qua<<setw(25)<<spe<<setw(15)<<exp<<setw(15)<<ci<<endl;
 
 	}
 
@@ -257,13 +258,14 @@ void DoctorEntity::dispDatabase(){
 
 */
 int DoctorEntity:: editDoc(DoctorEntity &docobj){
-	int x;
+	string x;
 	cout<<"\nEnter the ID of the Doctor whose profile you want to Edit:"<<endl;
 	cin>>x;									 //ID,firstname,lastname,age,qualification,specialization,experience,city
 	fstream fileObj("doctor.txt");
 	fileObj.seekg(0);
 
-	int age,exp,count=0, ID;
+	int age,exp,count=0;
+	string ID;
 	string fname,lname,ci,qua,spe;
 	while(fileObj>>ID>>fname>>lname>>age>>qua>>spe>>exp>>ci)
 	{
@@ -284,7 +286,7 @@ int DoctorEntity:: editDoc(DoctorEntity &docobj){
         fstream file("doctor.txt");
         file.seekg (0, ios::beg);
         file.seekg(0);
-        int line;
+        string line;
         ofstream tempObj;
         tempObj.open("copy.txt");
         tempObj.seekp(0);
@@ -322,6 +324,11 @@ int DoctorEntity:: editDoc(DoctorEntity &docobj){
             case 1:{
                 cout<<"ID"<<endl;
                 cin>>ID;
+                while (ID.length() != 8) {
+                        cout <<endl<< "Enter ID consists of 8 digit  ";
+                        cin>>ID;
+                }
+
                 break;
             }
             case 2:{
@@ -338,6 +345,11 @@ int DoctorEntity:: editDoc(DoctorEntity &docobj){
             }
             case 4:{cout<<"Age:"<<endl;
                 cin>>age;
+                while (age < 25 || age > 85) {
+                        cout << "come on! , Enter a valid age! ";
+                cin>>age;
+                }
+
                 break;
             }
             case 5:{
@@ -351,12 +363,22 @@ int DoctorEntity:: editDoc(DoctorEntity &docobj){
             else {
                 qua="MD";
             }
+            while (q>2 || q <=0) {
+                    cout << "come on!, enter a valid option!"<<endl;
+                    cin>>q;
+                    if(q==1) {
+                        qua="MBBS";
+                   }else if (q == 2) {
+                       qua="MD";
+                       }
+            }
 
             break;
             }
             case 6:{
                 system("cls");
                 spe=docobj.getSpec();
+                cout << "choose a number to update your specialization ";
                 break;
             }
             case 7:{cout<<"Experience:"<<endl;
@@ -407,7 +429,7 @@ int DoctorEntity:: editDoc(DoctorEntity &docobj){
 }
 
 int DoctorEntity::deleteDoc(){
-    int x;
+    string x;
 	cout<<"\nEnter the ID of the Doctor whose profile you want to Delete:"<<endl;
 	cin>>x;
 	//stringstream s(x);
@@ -416,7 +438,8 @@ int DoctorEntity::deleteDoc(){
 	fstream fileObj("doctor.txt");
 	fileObj.seekg(0);
 
-	int age,exp,count=0, ID;
+	int age,exp,count=0;
+	string ID;
 	string fname,lname,ci,qua,spe;
 	while(fileObj>>ID>>fname>>lname>>age>>qua>>spe>>exp>>ci)
 	{
@@ -442,7 +465,7 @@ int DoctorEntity::deleteDoc(){
             fstream file("doctor.txt");
             file.seekg (0, ios::beg);
             file.seekg(0);
-            int line;
+            string line;
             ofstream tempObj;
             tempObj.open("copy.txt");
             tempObj.seekp(0);

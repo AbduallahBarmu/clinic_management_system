@@ -10,7 +10,7 @@ class DoctorEntity
         DoctorEntity();
         virtual ~DoctorEntity();
         string d_fname,d_lname;
-        int d_ID;
+        string d_ID;
         int d_age,experience,d_totalno;
         string qual,d_city;
         string getSpec();
