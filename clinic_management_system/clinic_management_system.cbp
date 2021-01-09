@@ -69,15 +69,15 @@
 		<Unit filename="WelcomeScreen.cpp" />
 		<Unit filename="WelcomeScreen.h" />
 		<Unit filename="clinic_management_system.cbp" />
+		<Unit filename="clinic_management_system.cscope_file_list" />
 		<Unit filename="clinic_management_system.depend" />
 		<Unit filename="clinic_management_system.layout" />
 		<Unit filename="doctor.txt" />
 		<Unit filename="hospital_management_system.depend" />
 		<Unit filename="hospital_management_system.layout" />
 		<Unit filename="main.cpp" />
+		<Unit filename="medipolclinicsys.txt" />
 		<Unit filename="patient.txt" />
-		<Unit filename="patientProfile.cpp" />
-		<Unit filename="patientProfile.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

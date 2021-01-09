@@ -465,13 +465,16 @@
 1608473899 d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\uihelper.h
 	<string>
 
-1608473899 source:d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\doctorentity.cpp
+1610190810 source:d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\doctorentity.cpp
 	"DoctorEntity.h"
 	<iostream>
 	<fstream>
 	<iomanip>
+	<sstream>
+	<cstdio>
+	"UiHelper.h"
 
-1608473899 d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\doctorentity.h
+1610190810 d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\doctorentity.h
 	<string>
 
 1608473899 source:d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\doctorsmainscreen.cpp
@@ -549,17 +552,18 @@
 
 1608473899 d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\newpatientscreen.h
 
-1608473899 d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\patiententity.h
+1610188125 d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\patiententity.h
 	<string>
 
-1608473899 source:d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
+1610191729 source:d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
 	"PatientEntity.h"
 	<string>
 	<iostream>
 	<fstream>
 	<iomanip>
+	"UiHelper.h"
 
-1608473899 source:d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\patientsmainscreen.cpp
+1610191726 source:d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\patientsmainscreen.cpp
 	"PatientsMainScreen.h"
 	"PatientsMainScreen.h"
 	"NewPatientScreen.h"
@@ -570,7 +574,12 @@
 
 1608473899 d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.h
 
-1608473899 source:d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.cpp
+1610191723 source:d:\education\medipol\2.1\programming for engineers\project\clinic_management_system\clinic_management_system\patientstablescreen.cpp
+	"PatientsTableScreen.h"
+	"PatientEntity.h"
+	"UiHelper.h"
+	<iostream>
+	<string>
 
 1608482811 44106b8c31edcfef386e70f1eff7722a4d8c7
 	"PatientsTableScreen.h"
