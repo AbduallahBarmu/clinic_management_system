@@ -1,8 +1,4 @@
 #include "PatientEntity.h"
-#include "PatientsMainScreen.h"
-#include "NewPatientScreen.h"
-#include "PatientsTableScreen.h"
-
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -82,6 +78,10 @@ void PatientEntity::addPat()
     cout<<"Fill Up The Following Details please "<<endl<<endl;
     cout<<"Enter  National TC Kimlik  "<< endl;
     cin>>p.p_ID ;
+    while (p.p_ID.length() != 8) {
+        cout <<endl<< "Enter ID consists of 8 digit ";
+        cin>>p.p_ID;
+    }
     cout<<"Enter  First Name:"<<endl;
     cin>>p.fname;
     cout<<"Enter  Last Name:"<<endl;
@@ -127,8 +127,8 @@ void PatientEntity::dispPatDatabase()
     fstream Obj("patient.txt");
     Obj.seekg(0);
 
-    string fname,lname,job,p_city,Disease,addDate,Last_Check,P_Phone, dept;
-    int p_age,p_ID,count=0 ;
+    string fname,lname,job,p_city,Disease,addDate,Last_Check,P_Phone, dept , p_ID;
+    int p_age,count=0 ;
 
     cout<<endl<<endl<<"-------------------------------------------------------------------------------------------------------------------------------------------------------------"<<endl;
     cout<<setw(12)<<"National ID"<<setw(12) <<"Name"<< setw(12)<<"Age"<<setw(15) <<"Phone-No"<<setw(15) <<"job"<< setw(12)<<"City"<<setw(12)<<setw(15) <<"Disease"<<setw(22)<< "Admission-date"<<setw(20)<<"Last-Check "<< setw(20)<<"Specialization" <<endl;
@@ -267,14 +267,14 @@ void PatientEntity::displayPat()
 
 int PatientEntity:: editPat(PatientEntity &pat)
 {
-    int x;
+    string x;
     cout<<"\nEnter the ID for Patient whose profile you want to Edit: ";
     cin>>x;
     fstream patObj("patient.txt");
     patObj.seekg(0);
 
-    string fname,lname,job,p_city,Disease,addDate,Last_Check,dept,P_Phone;
-    int p_age,p_ID,count=0;
+    string fname,lname,job,p_city,Disease,addDate,Last_Check,dept,P_Phone, p_ID;
+    int p_age,count=0;
 
 
 
@@ -299,7 +299,7 @@ int PatientEntity:: editPat(PatientEntity &pat)
         fstream file("patient.txt");
         file.seekg (0, ios::beg);
         file.seekg(0);
-        int line;
+        string line;
         ofstream tempObj;
         tempObj.open("copy2.txt");
         tempObj.seekp(0);
@@ -436,15 +436,15 @@ int PatientEntity:: editPat(PatientEntity &pat)
 int PatientEntity::deletePat()
 {
 
-    int x;
+    string x;
     cout<<"\nEnter the ID for Patient whose profile you want to Delete: ";
 
     cin>>x;
     fstream patObj("patient.txt");
     patObj.seekg(0);
 
-    string fname,lname,job,p_city,Disease,addDate,Last_Check,dept,P_Phone;
-    int p_age,p_ID,count=0;
+    string fname,lname,job,p_city,Disease,addDate,Last_Check,dept,P_Phone,p_ID;
+    int p_age,count=0;
 
 
 
@@ -473,7 +473,7 @@ int PatientEntity::deletePat()
             fstream file("patient.txt");
             file.seekg (0, ios::beg);
             file.seekg(0);
-            int line;
+            string line;
             ofstream tempObj;
             tempObj.open("copy2.txt");
             tempObj.seekp(0);

@@ -60,6 +60,8 @@
 		<Unit filename="PatientsMainScreen.h" />
 		<Unit filename="PatientsTableScreen.cpp" />
 		<Unit filename="PatientsTableScreen.h" />
+		<Unit filename="PharmacyEntity.cpp" />
+		<Unit filename="PharmacyEntity.h" />
 		<Unit filename="PharmacyMainScreen.cpp" />
 		<Unit filename="PharmacyMainScreen.h" />
 		<Unit filename="PharmacyTableScreen.cpp" />
@@ -69,6 +71,7 @@
 		<Unit filename="WelcomeScreen.cpp" />
 		<Unit filename="WelcomeScreen.h" />
 		<Unit filename="clinic_management_system.cbp" />
+		<Unit filename="clinic_management_system.cscope_file_list" />
 		<Unit filename="clinic_management_system.depend" />
 		<Unit filename="clinic_management_system.layout" />
 		<Unit filename="doctor.txt" />
@@ -77,8 +80,6 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="medipolclinicsys.txt" />
 		<Unit filename="patient.txt" />
-		<Unit filename="patientProfile.cpp" />
-		<Unit filename="patientProfile.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

@@ -9,8 +9,8 @@ class PatientEntity
         PatientEntity ();
         virtual ~PatientEntity ();
 
-        string fname,lname,job,p_city,Disease,addDate,Last_Check ,P_Phone;
-        int p_age ,p_ID ;
+        string fname,lname,job,p_city,Disease,addDate,Last_Check ,P_Phone,p_ID;
+        int p_age ;
 
 
         string getDept();

@@ -10,16 +10,16 @@ class DoctorEntity
         DoctorEntity();
         virtual ~DoctorEntity();
         string d_fname,d_lname;
+        string d_ID;
         int d_age,experience,d_totalno;
         string qual,d_city;
         string getSpec();
         void addDoc();
-        void editDoc(DoctorEntity &docobj);
-        void displayDoc();
-        void deleteDoc();
+        int editDoc(DoctorEntity &docobj);
+        int deleteDoc();
         void dispDatabase();
         void numberofDocs();
-        void getDoctorDatabase();
+        //void getDoctorDatabase();
 
     protected:
 

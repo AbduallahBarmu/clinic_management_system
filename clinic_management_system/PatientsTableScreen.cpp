@@ -1,5 +1,4 @@
 #include "PatientsTableScreen.h"
-#include "patientProfile.h"
 #include "PatientEntity.h"
 #include "UiHelper.h"
 #include <iostream>
