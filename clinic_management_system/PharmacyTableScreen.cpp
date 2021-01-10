@@ -2,6 +2,7 @@
 #include "UiHelper.h"
 #include <iostream>
 #include <string>
+#include "PharmacyEntity.h"
 
 PharmacyTableScreen::PharmacyTableScreen()
 {
@@ -10,8 +11,8 @@ PharmacyTableScreen::PharmacyTableScreen()
     UiHelper::printHorizontalLine();
     int choice = -1;
     string feedback = "";
-    cout<<"\nFiles are empty at the moment, enter any number to continue: ";
-    cin>>choice;
+    PharmacyEntity m;
+    m.dispDatabase();
 }
 
 PharmacyTableScreen::~PharmacyTableScreen()

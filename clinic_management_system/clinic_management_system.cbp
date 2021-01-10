@@ -60,6 +60,8 @@
 		<Unit filename="PatientsMainScreen.h" />
 		<Unit filename="PatientsTableScreen.cpp" />
 		<Unit filename="PatientsTableScreen.h" />
+		<Unit filename="PharmacyEntity.cpp" />
+		<Unit filename="PharmacyEntity.h" />
 		<Unit filename="PharmacyMainScreen.cpp" />
 		<Unit filename="PharmacyMainScreen.h" />
 		<Unit filename="PharmacyTableScreen.cpp" />
