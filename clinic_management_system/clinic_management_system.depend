@@ -360,7 +360,7 @@
 
 1608155829 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newmedicinescreen.h
 
-1608066444 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newpatientscreen.cpp
+1610301808 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newpatientscreen.cpp
 	"NewPatientScreen.h"
 	"UiHelper.h"
 	<iostream>
@@ -433,9 +433,8 @@
 	<iostream>
 	<string>
 
-1610141028 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
+1610300491 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
 	"PatientEntity.h"
-	"patientProfile.h"
 	<string>
 	<iostream>
 	<fstream>

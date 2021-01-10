@@ -1,5 +1,8 @@
 #include "PatientEntity.h"
-#include "patientProfile.h"
+#include "PatientsMainScreen.h"
+#include "NewPatientScreen.h"
+#include "PatientsTableScreen.h"
+
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -128,7 +131,7 @@ void PatientEntity::dispPatDatabase()
     int p_age,p_ID,count=0 ;
 
     cout<<endl<<endl<<"-------------------------------------------------------------------------------------------------------------------------------------------------------------"<<endl;
-    cout<<"ID"<<setw(12) <<"Name"<< setw(12)<<"Age"<<setw(15) <<"Phone-No"<<setw(15) <<"job"<< setw(12)<<"City"<<setw(12)<<setw(15) <<"Disease"<<setw(22)<< "Admission-date"<<setw(20)<<"Last-Check "<< setw(20)<<"Specialization" <<endl;
+    cout<<setw(12)<<"National ID"<<setw(12) <<"Name"<< setw(12)<<"Age"<<setw(15) <<"Phone-No"<<setw(15) <<"job"<< setw(12)<<"City"<<setw(12)<<setw(15) <<"Disease"<<setw(22)<< "Admission-date"<<setw(20)<<"Last-Check "<< setw(20)<<"Specialization" <<endl;
     cout<<"-------------------------------------------------------------------------------------------------------------------------------------------------------------"<<endl;
 
     while(Obj>>p_ID>>fname>>lname>>p_age>>P_Phone>>job>>p_city>>Disease>>addDate>>Last_Check>>dept)
@@ -279,7 +282,7 @@ int PatientEntity:: editPat(PatientEntity &pat)
     {
         if(p_ID==x)
         {
-            cout<<"1.ID:"<<p_ID <<endl<<"2.First Name:"<<fname<<endl<<"3.Last Name:"<<lname<<endl<<"4.Age"<<p_age<<endl<<"5.Phone No.:"<<P_Phone<<endl<<"6.job:"<<job<<endl<<"7.City:"<<p_city<<endl<<"8.Disease/Symptoms:"<<Disease<<endl<<"9.Admission  date(DD/MM/YYYY):"<<addDate<<endl<<"10.Last Check date(DD/MM/YYYY):"<<Last_Check<<endl<<"12.Kind of Specialization required:"<<dept<<endl;
+            cout<<"1.ID:"<<p_ID <<endl<<"2.First Name:"<<fname<<endl<<"3.Last Name:"<<lname<<endl<<"4.Age"<<p_age<<endl<<"5.Phone No.:"<<P_Phone<<endl<<"6.job:"<<job<<endl<<"7.City:"<<p_city<<endl<<"8.Disease/Symptoms:"<<Disease<<endl<<"9.Admission  date(DD/MM/YYYY):"<<addDate<<endl<<"10.Last Check date(DD/MM/YYYY):"<<Last_Check<<endl<<"11.Kind of Specialization required:"<<dept<<endl;
             count++;
             break;
         }
@@ -393,7 +396,7 @@ int PatientEntity:: editPat(PatientEntity &pat)
         case 11:
         {
             cout<<"Kind of Specialization required:"<<endl;
-            dept=pat.getDept();
+            dept = pat.getDept();
             break;
         }
         default:
