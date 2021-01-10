@@ -481,7 +481,7 @@ int DoctorEntity::deleteDoc(){
             while(file>>line>>fname1>>lname1>>age1>>qua1>>spe1>>exp1>>ci1)
             {
                 if(line!=x){
-                    tempObj<<line<<endl<<fname1<<endl<<lname1<<endl<<age1<<endl<<qua1<<endl<<spe1<<endl<<exp1<<endl<<ci1<<endl;
+                    tempObj<<line<<" "<<fname1<<" "<<lname1<<" "<<age1<<" "<<qua1<<" "<<spe1<<" "<<exp1<<" "<<ci1<<endl;
                 }
             }
 
