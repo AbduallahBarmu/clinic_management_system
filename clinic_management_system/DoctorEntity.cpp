@@ -79,9 +79,11 @@ void DoctorEntity::addDoc()
         cin>>d.d_ID;
     }
     cout<<"First Name:"<<endl;
-    cin>>d.d_fname;
+    //cin>>d.d_fname;
+    cin.getline(input,(d.d_fname));
     cout<<"Last Name:"<<endl;
-    cin>>d.d_lname;
+    //cin>>d.d_lname;
+    cin.getline(input,(d.d_lname));
     cout<<"Age:"<<endl;
     cin>>d.d_age;
     while (d.d_age < 25 || d.d_age > 85) {
@@ -354,31 +356,32 @@ int DoctorEntity:: editDoc(DoctorEntity &docobj){
             }
             case 5:{
                 cout<<"Choose Qualification among the following:\n1.MBBS\n2.MD"<<endl;
-            int q;
-            cin>>q;
-            if(q=1){
-                qua="MBBS";
-               }
+                int q;
+                cin>>q;
+                if(q==1){
+                    qua="MBBS";
+                   }
 
-            else {
-                qua="MD";
-            }
-            while (q>2 || q <=0) {
-                    cout << "come on!, enter a valid option!"<<endl;
-                    cin>>q;
-                    if(q==1) {
-                        qua="MBBS";
-                   }else if (q == 2) {
-                       qua="MD";
-                       }
-            }
+                else if (q==2){
+                    qua="MD";
+                }
+                while (q>2 || q <=0) {
+                        cout << "come on!, enter a valid option!"<<endl;
+                        cin>>q;
+                        if(q==1) {
+                            qua="MBBS";
+                       }else if (q == 2) {
+                           qua="MD";
+                           }
+                }
 
-            break;
+                break;
             }
             case 6:{
                 system("cls");
+                cout << "choose a number to update your specialization "<<endl;
                 spe=docobj.getSpec();
-                cout << "choose a number to update your specialization ";
+
                 break;
             }
             case 7:{cout<<"Experience:"<<endl;
