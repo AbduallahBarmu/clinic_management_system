@@ -79,11 +79,11 @@ void DoctorEntity::addDoc()
         cin>>d.d_ID;
     }
     cout<<"First Name:"<<endl;
-    //cin>>d.d_fname;
-    cin.getline(input,(d.d_fname));
+    cin>>d.d_fname;
+    //cin.getline(input,(d.d_fname));
     cout<<"Last Name:"<<endl;
-    //cin>>d.d_lname;
-    cin.getline(input,(d.d_lname));
+    cin>>d.d_lname;
+    //cin.getline(input,(d.d_lname));
     cout<<"Age:"<<endl;
     cin>>d.d_age;
     while (d.d_age < 25 || d.d_age > 85) {
