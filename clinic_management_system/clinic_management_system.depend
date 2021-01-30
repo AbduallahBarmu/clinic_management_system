@@ -373,7 +373,7 @@
 
 1608063300 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\newpatientscreen.h
 
-1610305243 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.h
+1612036841 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.h
 	<string>
 
 1610302462 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patientsmainscreen.cpp
@@ -436,7 +436,7 @@
 	<iostream>
 	<string>
 
-1610305466 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
+1612036833 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\patiententity.cpp
 	"PatientEntity.h"
 	<string>
 	<iostream>
@@ -1192,7 +1192,7 @@
 1610302462 c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\pharmacyentity.h
 	<string>
 
-1610302462 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\pharmacyentity.cpp
+1612037430 source:c:\users\abdul\onedrive\documents\medipol university\second year\thired semester\programming-for-engineers\project\clinic_management_system\clinic_management_system\pharmacyentity.cpp
 	"PharmacyEntity.h"
 	<iostream>
 	<fstream>

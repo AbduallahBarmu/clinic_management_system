@@ -76,7 +76,7 @@ void PharmacyEntity::dispDatabase(){
 	float price;
 	string ID,name,dose,category;
 
-	cout<<endl<<endl<<"-----------------------------------------------------------------------------------------------"<<endl;
+	cout<<endl<<endl<<"-----------------------------------------------------------------------------------------------------"<<endl;
 	cout <<"  ID" <<setw(20)<<"Name"<<setw(20) <<"Dose" <<setw(18)<<"Category"<<setw(18) <<"Price"<<endl;
 	cout<<"-----------------------------------------------------------------------------------------------------"<<endl;
 
@@ -328,7 +328,7 @@ int PharmacyEntity::deleteMed(){
             while(file>>line>>name1>>dose1>>category1>>price1)
             {
                 if(line!=x){
-                    tempObj<<line<<" "<<name1<<" "<<dose1<<" "<<category1<<""<<price1<<endl;
+                    tempObj<<line<<" "<<name1<<" "<<dose1<<" "<<category1<<" "<<price1<<endl;
                 }
             }
 
