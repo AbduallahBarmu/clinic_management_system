@@ -1,5 +1,5 @@
 # Clinic Management System
-Programming for engineers c++ project that manages doctors, patients, and pharmacy of a small clinic
+C++ project that manages doctors, patients, and pharmacy of a small clinic
 
 ## Abstract
 The Clinic Management System is built to support and simplify the clinic everyday service. Clinic
