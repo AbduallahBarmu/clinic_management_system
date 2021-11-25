@@ -1,4 +1,4 @@
-##Clinic_management_system
+# Clinic_management_system
 Programming for engineers c++ project that manages doctors, patients, and pharmacy of a small clinic
 
 ## Abstract
@@ -13,21 +13,21 @@ inserting, updating and deleting records.
 To protect the privacy of the patients, doctors and the clinic information safe we secured the system
 with an encrypted password that is stored in a separate file.
 
-##Introduction
+## Introduction
 Clinics have a lot of doctors, daily patients and active pharmacies. Each of these entities must be
 managed carefully and flawlessly. With a traditional file system these entities are hard to manage for
 clinic employees. 
 
 
 
-##Used Technologies 
+## Used Technologies 
 language Core: C/C++ , Files for storing data  
 
 
 
-##Project Design
+# Project Design
 
-##Interface
+## Interface
 Since this program has been built using c++ programming, the interface is using console application and in the paragraph, we are going to demonstrate the function of the main pages that appears in the program, and the detailed process is to be demonstrated in the user manual part in upcoming sections.
 
 First page to be shown is the login page, which allow you to create a password for the first use or use your old password for the next login attempts, 
@@ -75,7 +75,7 @@ Same process is made for the pharmacy and patients records here:
 
 More on how to use the application in the user manual section where we describe in detail how to use each feature with steps and screenshots.
 
-##Operations
+## Operations
 The system operations and features are listed below:
 
 1.	Login Function
@@ -112,7 +112,7 @@ Navigate through the application using the navigation screens by choosing the op
 
 
 
-##Files
+# Files
 The files included in this projects are 4 files as follow:
 1.	medipolclinicsys.txt
 Includes the encrypted password of the system.
