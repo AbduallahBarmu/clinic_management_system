@@ -1,4 +1,4 @@
-# Clinic_management_system
+# Clinic Management System
 Programming for engineers c++ project that manages doctors, patients, and pharmacy of a small clinic
 
 ## Abstract
